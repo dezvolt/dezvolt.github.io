@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 
 html, body {
@@ -48,28 +48,28 @@ header img:hover {
     transform: scale(1.4) skew(.312rad);
 }
 
-nav {
+.navbar {
     background-color: black;
     line-height: 3;
-
+    width: auto;
+    list-style: none;
+    text-align:center;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+    padding: 0;
     margin: 0;
 }
 
-nav ul li {
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
     display: inline-block;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-nav a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    padding-bottom: 3px;
+    font-size: 24px;
+    width: 20%;
 }
-
