@@ -1,3 +1,5 @@
+/*Check out https://tiffanywhite.dev/ ; I took this from her! */
+
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
