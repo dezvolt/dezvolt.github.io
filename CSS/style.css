@@ -3,8 +3,13 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    position: relative;
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
+    background-image: url(/images/white-wall.jpg); /* Photo by Lorenzo from Pexels */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -39,7 +44,7 @@ header h1 {
 header img {
     width: 300px;
     height: 300px;
-    margin-top: -60px;
+    margin-top: -40px;
     border: solid white 2px;
     border-radius: 50%;
 }
@@ -72,4 +77,26 @@ nav ul {
     padding-bottom: 3px;
     font-size: 24px;
     width: 20%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.definition {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.para {
+    font-size: 20px;
+    margin: 20px;
 }
