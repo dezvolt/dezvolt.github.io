@@ -45,7 +45,7 @@ header img {
 }
 
 header img:hover {
-    transform: scale(1.4) skew(.312rad);
+    transform: scale(1.4) rotate(180deg);
 }
 
 .navbar {
