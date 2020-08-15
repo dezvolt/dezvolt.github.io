@@ -7,7 +7,7 @@ html {
 body {
     background: #120E14;
     color: rgb(185, 180, 169);
-    font-family: "Fira Mono", monospace;
+    font-family: 'Fira Code', monospace;
     font-size: 16px;
     margin: 0 auto;
     margin-bottom: 120px;
