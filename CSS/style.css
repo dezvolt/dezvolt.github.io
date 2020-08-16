@@ -1,6 +1,6 @@
 
 :root {
-    font-size: 16px;
+    font-size: 1vw;
     width: 100%;
 }
 
@@ -62,9 +62,9 @@ ul {
         --fill-color: #198CE6;
         position: relative;
         display: inline-block;
-        width: 25rem;
+        width: 20rem;
         padding: 0.25rem 0;
-        font: 700 3rem Raleway, sans-serif;
+        font: 700 2.5rem Raleway, sans-serif;
         text-decoration: none;
         text-transform: uppercase;
         -webkit-text-stroke: 2px var(--fill-color);
@@ -81,7 +81,7 @@ ul {
     font-size: 2.25rem;
     text-align: center;
     padding-top: 2.5rem;
-    padding-bottom: 1.25;
+    padding-bottom: 1.25rem;
     width: 60%;
     margin: 0 auto;
 }
@@ -123,13 +123,20 @@ svg {
 /* Blog "coming soon" page background */
 
 #myVideo {
-    position: fixed;
+    position: absolute;
+    margin: 0;
+    padding: 0;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
+.myVideoWrapper {
+    margin: 0;
+    padding: 0;
+}
   /* Add some content at the bottom of the video/page */
   #content {
     position: fixed;
