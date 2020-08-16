@@ -50,15 +50,17 @@ ul {
     background: black;
     text-align: center;
     width: 100%;
+
 }
     ul li {
-;
-      display: inline; }
+        display: inline;
+     }
       ul li a {
         --fill-color: #198CE6;
         position: relative;
         display: inline-block;
-        width: 20%;
+        margin-left: 7rem;
+        margin-right: 7rem;
         padding: 4px 0;
         font: 700 3rem Raleway, sans-serif;
         text-decoration: none;
