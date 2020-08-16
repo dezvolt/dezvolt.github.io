@@ -4,6 +4,11 @@
 ------------------------------------- */
 /* =Styles
 ------------------------------------- */
+:root {
+  font-size: 1vw;
+  width: 100%;
+}
+
 html {
   background: #1b1c1d;
   box-sizing: border-box;
@@ -12,8 +17,8 @@ html {
   padding: 0; }
 
 #imgresize {
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   border-radius: 50%;
 }
 
