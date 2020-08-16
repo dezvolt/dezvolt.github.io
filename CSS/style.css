@@ -1,10 +1,16 @@
 
+:root {
+    font-size: 16px;
+    width: 100%;
+}
+
 html, body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    width: 100%;
     position: relative;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     background-image: url(/images/white-wall.jpg); /* Photo by Lorenzo from Pexels */
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,8 +18,8 @@ html, body {
 
 header {
     text-align: center;
-	padding-top: 40px;
-    padding-bottom: 50px;
+	padding-top: 2.5rem;
+    padding-bottom: 3.125rem;
     margin-bottom: 0;
     background-image: url(/images/japan-lantern.jpg); /* Credit Alex Knight on Unsplash https://unsplash.com/photos/5-GNa303REg */
     background-size: cover;
@@ -21,22 +27,22 @@ header {
 }
 
 header span {
-    border-bottom: 2.5px solid;
-	font-size: 32px;
-    letter-spacing: 1.3px;
+    border-bottom: 2px solid;
+	font-size: 2rem;
+    letter-spacing: 0.081rem;
     line-height: 2;
-    padding-bottom: 15px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-bottom: 0.938rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     font-weight: lighter;
 }
 
 header h1 {
-    font-size: 125px;
+    font-size: 7.813rem;
     font-weight: normal;
-    letter-spacing: 1.3px;
-    margin-top: 24px;
-    margin-bottom: 40px;
+    letter-spacing: 0.081rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
     line-height: 1;
 }
 
@@ -57,7 +63,7 @@ ul {
         position: relative;
         display: inline-block;
         width: 25rem;
-        padding: 4px 0;
+        padding: 0.25rem 0;
         font: 700 3rem Raleway, sans-serif;
         text-decoration: none;
         text-transform: uppercase;
@@ -72,17 +78,17 @@ ul {
 
 .definition {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 2.5rem;
+    padding-bottom: 1.25;
     width: 60%;
     margin: 0 auto;
 }
 
 .para {
-    font-size: 20px;
-    margin: 20px;
+    font-size: 1.25rem;
+    margin: 1.25rem;
 }
 
 footer {
