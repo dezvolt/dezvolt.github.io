@@ -1,6 +1,6 @@
 
 :root {
-    font-size: 1vw;
+    font-size: 1vw; /* Mobile optimization isn't key right now. I just wanted it to look decent on mobile without having to bother with media queries, breakpoints, etc. It was a jumbled mess before making this change and going from px to rem.*/
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ ul {
     font-size: 2.25rem;
     text-align: center;
     padding-top: 2.5rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 2.5rem;
     width: 60%;
     margin: 0 auto;
 }
@@ -226,3 +226,5 @@ svg {
     font-size: 7rem;
     background: transparent;
   }
+
+
