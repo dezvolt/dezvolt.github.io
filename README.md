@@ -1,1 +1,1 @@
-Portfolio? Blog? Sandbox? The intent is to apply what I learn about HTML/CSS, as I learn it. As such, I expect this to change quite often. I'll also try to keep it relatively free of my terrible JS, unless it improves and I see a reason for it :)
+Portfolio? Blog? Sandbox? The intent is to apply what I learn about HTML/CSS, as I learn it. As such, I expect this to change quite often.
