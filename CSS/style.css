@@ -150,6 +150,18 @@ svg {
     padding: 10px;
   }
 
+  #blog-return {
+    position: fixed;
+    font-family: 'outrun_futureregular';
+    text-align: left;
+    top: 0;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgba(148, 0, 211, 0.4);
+    width: 100%;
+    text-decoration: none;
+  }
+
   /* Portfolio coming soon page; Rachel Nabors, https://codepen.io/rachelnabors/pen/AvGhp*/
   .tuna {
     animation: walk-cycle 1s steps(12) infinite;
