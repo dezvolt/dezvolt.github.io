@@ -140,22 +140,18 @@ svg {
     text-align: center;
     font-size: 7rem;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
+    background: transparent;
     color: #f1f1f1;
     width: 100%;
     padding: 10px;
   }
 
-  #blog-return {
+  #dark-sign {
     position: fixed;
-    font-family: 'outrun_futureregular';
-    text-align: left;
     top: 0;
     margin-left: 1rem;
-    font-size: 1.5rem;
-    color: rgba(148, 0, 211, 0.4);
-    width: 100%;
-    text-decoration: none;
+    height: 6rem;
+    width: 6rem;
   }
 
 #blog-background {
