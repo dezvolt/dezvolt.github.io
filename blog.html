@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html id='blog-background' lang="en">
-    <head>
-        <title>Blog Coming Soon!</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/style.css" type="text/css">
-        <link rel="stylesheet" href="/CSS/import-style.css" type="text/css">
-        <link rel="stylesheet" href="/CSS/fonts/font-style.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">
-    </head>
-    <body>
-          <video autoplay muted loop playsinline id="myVideo">
-            <source src="/video/darksouls.mp4" type="video/mp4">
-          </video>
-        <h1 id='content'>Coming Soon...</h1>
-          <a href="index.html"><img id='dark-sign' src="/video/dstran.gif" alt="DS3 dark sign"></a>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/blog-style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body id='crt-holder' class="crt">
+    <header>
+        <nav>
+            <a href="/" class="underline">/home</a>
+            <a href="mailto:dezvolt.ch@gmail.com" class="underline">/contact</a>
+            <a class='nav-right' href='#' class='underline' onclick='endCRT()'><small>/toggle CRT effect</small></a>
+        </nav>
+    </header>
+    <div class="site-title">
+        <h1>
+          <a class='logo-1' href="/">&lt;wasted bandwidth&gt;</a>
+        </h1>
+    </div>
+    <p class="author-name">by charles holtsclaw</p>
+    <div class="row">
+        <div class="left">
+          <span><a href='#top'>&num;latest</a></span>
+          <ul>
+              <li><a href='#first-post'>Let's get started</a></li>
+              <li><a href='#'>post</a></li>
+              <li><a href='#'>post</a></li>
+              <li><a href='#'>post</a></li>
+              <li><a href='#'>post</a></li>
+              <li><a href='#'>post</a></li>
+          </ul>
+          <span><a href='#bottom'>&num;oldest</a></span>
+        </div>
+        <div class="right">
+          <article id="first-post">
+            <h2>&num;Let's get started</h2>
+            <span><small>8.19.2020 14:05</small></span>
+            <p>Coming soon...</p>
+          </article>
+        </div>
+      </div>
+<script src="app.js"></script>
+</body>
 </html>

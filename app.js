@@ -26,3 +26,9 @@ typewriter
   .typeString('<a href="https://www.linkedin.com/in/charles-holtsclaw/" target="_blank">LinkedIn</a> <br />')
   .typeString('<a href="http://github.com/dezvolt" target="_blank">GitHub</a> <br />')
   .pauseFor(1000)
+
+
+function endCRT() {
+  let element = document.getElementById('crt-holder');
+  element.classList.toggle('crt')
+}

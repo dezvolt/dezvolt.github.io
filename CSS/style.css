@@ -11,12 +11,15 @@ html, body {
     position: relative;
     margin: 0;
     padding-bottom: 1.25rem;
-    background-image: url(/images/white-wall.jpg); /* Photo by Lorenzo from Pexels */
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-header {
+body {
+  background-image: url(/images/white-wall.jpg); /* Photo by Lorenzo from Pexels */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.front-header {
     text-align: center;
 	  padding-top: 2.5rem;
     padding-bottom: 3.125rem;
@@ -26,7 +29,7 @@ header {
     background-position: top;
 }
 
-header span {
+.front-header span {
     border-bottom: 2px solid;
 	font-size: 2rem;
     letter-spacing: 0.081rem;
@@ -37,7 +40,7 @@ header span {
     font-weight: lighter;
 }
 
-header h1 {
+.front-header h1 {
     font-size: 7.813rem;
     font-weight: normal;
     letter-spacing: 0.081rem;
@@ -397,3 +400,4 @@ svg {
 }
 .crt {
   animation: textShadow 1.6s infinite;
+}
